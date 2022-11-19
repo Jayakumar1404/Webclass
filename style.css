@@ -1,7 +1,8 @@
 body
 {
-  color: #40514E;
+  background: #ffffc7;
   margin: 0;
+
   text-align: center;
   font-family: 'Merriweather', serif;
 }
@@ -48,12 +49,12 @@ a:hover {
 .ava
 {
   border-radius: 50%;
-  width: 6%;
-  height: 4%;
+  width: 8%;
+  height: 9%;
 }
 .head
 {
-  background-color: #E4F9F5;
+  background-color: #8b7e74;
   position: relative;
   padding-top: 100px;
 }
@@ -69,6 +70,13 @@ top: 20px;
   top: 200px;
   left: 230px;
 }
+.new
+{
+  position: absolute;
+  top: 300px;
+  right: 230px;
+}
+
 .middle
 {
 margin: 100px auto;
@@ -113,32 +121,73 @@ text-align: left;
 }
 .bottom
  {
-  background-color: #66BFBF;
-  padding: 10px 0 20px;
+    background: linear-gradient( to right,black,#5b86e5);
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px;
+    margin: 1px auto;
+    padding: 10px 0 20px;
 
+}
+.home
+{
+  width: 50px;
+ align-items: stretch;
+}
+.fd
+{
+  width: 50px;
+ align-items: stretch;
+}
+.help
+{
+  width: 50px;
+ align-items: stretch;
+}
+.idea
+{
+  width: 50px;
+ align-items: stretch;
 }
 .l{
   float: right;
-  margin: 30/px 180px;
-  width: 20%;
+  border-radius: 20%;
+  margin: 20px auto;
+  width: 15%;
   margin-left:  25px;
+}
+.fd
+{
+  width:10%;
+  align-items: flex-end;
+  height: 50px;
 }
 .contact
 {
 width: 40%;
 margin: 40px auto 60px;
 }
-  .copyright {
-  color: #EAF6F6;
+.m {
+  height: 20%;
+  width: 30%;
+}
+.lk
+{
+  color: white;
   font-size: 1rem;
-  padding: 20px 0;
+}
+.copyright {
+color: pink;
+font-size: 0.8rem;
+
+padding: 10px
+
 }
 
 .button-89 {
   --b: 3px;   /* border thickness */
   --s: .45em; /* size of the corner */
-  --color: #373B44;
-
+  --color: #cd295a;
+margin: 50px auto;
   padding: calc(.5em + var(--s)) calc(.9em + var(--s));
   color: var(--color);
   --_p: var(--s);
@@ -167,4 +216,13 @@ margin: 40px auto 60px;
 .button-89:active {
   background: var(--color);
   color: #fff;
+}
+.jk
+{
+  width:85%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
 }
